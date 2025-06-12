@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "aayan.infotech",
   "version": "1.0.0",
-  "description": "this is my personal portfolio",
+  "description": "aayan.infotech",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -28,6 +28,6 @@
     "sib-api-v3-sdk": "^8.5.0",
     "validator": "^13.9.0"
   },
-  "author": "nauman",
+  "author": "yogesh",
   "license": "ISC"
 }
