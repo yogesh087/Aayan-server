@@ -37,8 +37,22 @@ git clone https://github.com/yogesh087/Aayan-server.git
 cd your-folder
 npm install
 ```
+3.Add Environment Variables
 
-3. Start the development server:
+Create a `.env` file in the root directory and add the following variables:
+
+```env
+PORT=5000
+COMPASS_URL=your_mongodb_connection_string_for_compass
+ATLAS_URL=your_mongodb_connection_string_for_atlas
+JWT_SECRET=your_jwt_secret
+JWT_REFRESH_SECRET=your_jwt_refresh_secret
+MAIN_URL=http://localhost:5000
+SENDER_EMAIL=your_sender_email_address
+SENDER_EMAIL_PASSWORD=your_sender_email_password
+ADMIN_EMAIL=admin_email_for_notifications
+
+4. Start the development server:
 
 ```bash
 npm run dev
